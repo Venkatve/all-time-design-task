@@ -1,0 +1,62 @@
+
+.box{
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(169, 220, 220);
+}
+.box > .second{
+  width: 290px;
+  height: 25px;
+}
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.third{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.third1{
+  width: 140px;
+  height: 25px;
+}
+.third2{
+  width: 140px;
+  height: 25px;
+}
+.fourth{
+  width: 290px;
+  height: 25px;
+}
+.fifth{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 25px;
+  
+}
+.fifth > button{
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+}
+.fifth1{
+  border:none;
+}
+.fifth2{
+  background-color: rgb(23, 194, 111);
+  border:none;
+  border-radius: 5px;
+}
+.sixth{
+  background-color: rgb(85, 126, 106);
+  
+  
+}
